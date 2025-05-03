@@ -1,0 +1,19 @@
+{
+    "name": "tosh",
+    "version": "1.0.0",
+    "main": "bot.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "dotenv": "^16.4.7",
+      "google-spreadsheet": "^4.1.4",
+      "googleapis": "^144.0.0",
+      "node-telegram-bot-api": "^0.66.0"
+    }
+  }
+  
