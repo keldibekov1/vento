@@ -13,7 +13,7 @@ const auth = new google.auth.GoogleAuth({
 });
 
 const sheets = google.sheets({ version: "v4", auth });
-const SPREADSHEET_ID = "1BZdoNxu1qKG0yV31eSs8mIe2szpjabjiTi1SVa-Rtl8"; // Google Sheets ID
+const SPREADSHEET_ID = ""; // Google Sheets ID
 const userLanguages = {}; // Foydalanuvchi tillarini saqlash uchun obyekt
 
 bot.onText(/\/start/, (msg) => {
